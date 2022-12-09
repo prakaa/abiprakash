@@ -8,14 +8,25 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - nem_data.qmd
+      - concepts.qmd
+      - publications.qmd
       - about.qmd
+    right:
+    - icon: envelope
+      href: "mailto: abiprakash007@gmail.com"
+    - icon: github
+      href: https://github.com/prakaa
+    - icon: linkedin
+      href: https://www.linkedin.com/in/abi-prakash-69628479/
+      
   page-footer: 
     left: "Last updated 2022"
 format:
   html:
-    theme: cosmo
-    dark: darkly
-    light: flatly
+    theme:
+      dark: darkly
+      light: flatly
 
 
 
