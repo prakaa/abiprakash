@@ -1,0 +1,9 @@
+---
+title: ""
+---
+
+This is a collection of a few things that [I've](about.qmd) worked on that might be helpful to others interested in power system operations and the Australian National Electricity Market.
+
+
+
+

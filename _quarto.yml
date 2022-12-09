@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer: 
+    left: "Last updated 2022"
+format:
+  html:
+    theme: cosmo
+    dark: darkly
+    light: flatly
+
+
+
