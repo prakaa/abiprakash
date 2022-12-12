@@ -1,9 +1,12 @@
 ---
-title: ""
+title: "Home"
 ---
 
-This is a collection of a few things that [I've](about.qmd) worked on that might be helpful to others interested in power system operations and the Australian National Electricity Market.
+This is a collection of a few things that [I've](about.qmd) worked on which might be useful to others interested in:
 
+- Programming and numerical computing
+- Power system operations 
+- The Australian National Electricity Market (NEM)
 
 
 
