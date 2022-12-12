@@ -1,0 +1,19 @@
+# NEM Data Tools
+
+## [NEMOSIS](https://github.com/UNSW-CEEM/NEMOSIS)
+
+Originally developed by Nick Gorman, `NEMOSIS` is a Python package that facilitates downloading historical *actual* power system and market data from the Australian Energy Market Operator.
+
+Data includes market prices, demand by market region, generator dispatch targets and SCADA data, NEM dispatch engine outputs and market participants bids and offers.
+
+## [NEMSEER](https://github.com/UNSW-CEEM/NEMSEER)
+
+Developed by myself, `NEMSEER` is a Python package that facilitates downloading historical ahead-of-time (or *forecast*) power system and market data from the Australian Energy Market Operator.
+
+`NEMSEER` provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator. Whereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as *"can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?"*), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.
+
+For more information, see:
+
+- The [glossary](https://nemseer.readthedocs.io/en/latest/glossary.html) for an overview of these ahead-of-time processes and definitions of key terms
+- The [quick start](https://nemseer.readthedocs.io/en/latest/quick_start.html) for information on how to use `NEMSEER`
+- The [examples page](https://nemseer.readthedocs.io/en/latest/examples.html), which include examples of how you can use [`NEMOSIS`](nem_data.qmd#nemosis) alongside `NEMSEER` to look at demand and price convergence over time. 
