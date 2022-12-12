@@ -10,7 +10,6 @@ website:
         text: Home
       - nem_data.qmd
       - concepts.qmd
-      - publications.qmd
       - about.qmd
     right:
     - icon: envelope
