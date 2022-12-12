@@ -1,0 +1,28 @@
+# Concepts and Modelling
+
+## Dispatch and market pricing outcomes
+
+The [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.
+
+### Economic dispatch, co-optimised reserves and opportunity costs 
+[This notebook](pluto/ed_reserves_jump.jl.html):
+
+1. Explains how prices are generated from economic dispatch
+2. Provides an example how co-optimising reserve and energy markets can:
+    - Allow total system costs to be minimised
+    - Ensure that reserve market pricing accounts for market participants' opportunity-costs
+      - i.e. the otherwise foregone "profit" that a participant may have received if they provided energy instead of reserves
+
+### Multi-period dispatch
+
+[This notebook](pluto/multi_period_ed.jl.html) explores unintuitive pricing outcomes associated with *multi-period* dispatch.
+
+The majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes.
+
+![](./charts/multi-dispatch.svg)
+
+## Comparing mathematical programming (optimisation) frameworks across Python & Julia
+
+[This repository](https://github.com/prakaa/Battery-Optimisation-Benchmarking) compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.
+
+The repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework.
