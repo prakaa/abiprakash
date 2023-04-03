@@ -10,6 +10,8 @@ website:
         text: Home
       - nem_data.qmd
       - concepts.qmd
+      - modelling.qmd
+      - publications.qmd
       - about.qmd
     right:
     - icon: envelope
@@ -20,7 +22,7 @@ website:
       href: https://www.linkedin.com/in/abi-prakash-69628479/
       
   page-footer: 
-    left: "Last updated 2022"
+    left: "Last updated 2023"
 format:
   html:
     theme:

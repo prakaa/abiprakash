@@ -1,0 +1,25 @@
+# Publications
+
+## Peer-reviewed
+
+Prakash, A., Bruce, A., MacGill, I., 2022. *Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market*. Renewable and Sustainable Energy Reviews 161, 112303. [link](https://doi.org/10.1016/j.rser.2022.112303)
+
+Prakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. *Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables*. Energy Policy 177, 113551. [link](https://doi.org/10.1016/j.enpol.2023.113551)
+
+## Policy submissions
+
+Prakash, A., Keeratimahat, K., Bruce, A., Macgill, I., 2020. *Submission to the Semi scheduled generator rule change(s) Issues paper*. UNSW Collaboration on Energy and Environmental Markets. [link](http://dx.doi.org/10.13140/RG.2.2.10054.50245)
+
+MacGill, I., Prakash, A., Bruce, A., 2020. *Response to the Energy Security Board’s Post 2025 Market Design Consultation Paper*. UNSW Collaboration on Energy and Environmental Markets. [link](http://dx.doi.org/10.13140/RG.2.2.33241.75362)
+
+Prakash, A., Macgill, I., Bruce, A., 2021. *Response to Frequency control rule changes directions paper*. UNSW Collaboration on Energy and Environmental Markets. [link](https://doi.org/10.13140/RG.2.2.11620.50560)
+
+Prakash, A., Gorman, N., MacGill, I., Bruce, A., 2021. *Response to Reserve Services in the National Electricity Market Directions Paper*. UNSW Collaboration on Energy and Environmental Markets. [link](https://doi.org/10.13140/RG.2.2.18331.39206)
+
+Prakash, A., Ashby, R., Keeratimahat, K., Bruce, A., MacGill, I., 2021. *UNSW CEEM Response to Post 2025 Market Design Options Paper*. UNSW Collaboration on Energy and Environmental Markets. [link](https://www.researchgate.net/publication/369739828_UNSW_CEEM_Response_to_Post_2025_Market_Design_Options_Paper)
+
+Prakash, A., Nicholls, A., Heim, D., Bruce, A., Macgill, I., 2022. *Response to Capacity Mechanism Project High-level Design Paper*. UNSW Collaboration on Energy and Environmental Markets. [link](https://doi.org/10.13140/RG.2.2.35007.59043)
+
+
+
+

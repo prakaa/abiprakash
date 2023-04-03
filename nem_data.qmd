@@ -1,10 +1,12 @@
-# NEM Data Tools
+# Australian National Electricity Market data tools
 
 ## [NEMOSIS](https://github.com/UNSW-CEEM/NEMOSIS)
 
-Originally developed by Nick Gorman, `NEMOSIS` is a Python package that facilitates downloading historical *actual* power system and market data from the Australian Energy Market Operator.
+Originally developed by [Nick Gorman](https://github.com/nick-gorman), `NEMOSIS` is a Python package that facilitates downloading historical *actual* power system and market data from the Australian Energy Market Operator. Since its initial release, we have added additional features including data caching options and better user feedback.
 
 Data includes market prices, demand by market region, generator dispatch targets and SCADA data, NEM dispatch engine outputs and market participants bids and offers.
+
+If you use `NEMOSIS`, please cite [this paper](https://www.researchgate.net/publication/329798805_NEMOSIS_-_NEM_Open_Source_Information_Service_open-source_access_to_Australian_National_Electricity_Market_Data).
 
 ## [NEMSEER](https://github.com/UNSW-CEEM/NEMSEER)
 
@@ -22,7 +24,18 @@ For more information, see:
 - The [quick start](https://nemseer.readthedocs.io/en/latest/quick_start.html) for information on how to use `NEMSEER`
 - The [examples page](https://nemseer.readthedocs.io/en/latest/examples.html), which include examples of how you can use [`NEMOSIS`](nem_data.qmd#nemosis) alongside `NEMSEER` to look at demand and price convergence over time. 
 
-Here's an example of what you can do with `NEMSEER`.
+If you use `NEMSEER`, please cite the package via the [Zenodo DOI](https://doi.org/10.5281/zenodo.7397514). If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite [`NEMOSIS`](https://www.researchgate.net/publication/329798805_NEMOSIS_-_NEM_Open_Source_Information_Service_open-source_access_to_Australian_National_Electricity_Market_Data).
+
+Here are some examples of what you can do with `NEMSEER`.
+
+### Demand Forecast Errors in 2021
 
 <iframe src="./charts/p5min_error_2021_tod_percentile.html" width="120%" height="500">
+</iframe>
+
+### Energy Price Convergence in 2021
+
+See [this note](https://nemseer.readthedocs.io/en/latest/examples/price_convergence_2021.html#energy-price-convergence-in-2021) explaining why we can't strictly call these price *errors*.
+
+<iframe src="./charts/NSW_abs_price_error_2021.html" width="120%" height="500">
 </iframe>

@@ -1,12 +1,18 @@
 ---
 title: "Home"
+listing:
+  contents:
+    - "*.qmd"
+  type: table
+  fields: [title]
+  sort: false
+  field-display-names:
+    title: "Page"
+  sort-ui: false
+  filter-ui: false
 ---
 
-This is a collection of a few things that [I've](about.qmd) worked on which might be useful to others interested in:
-
-- Programming and numerical computing
-- Power system operations 
-- The Australian National Electricity Market (NEM)
+This is a collection of a few things that I've worked on during my PhD at the Collaboration on Energy and Envrionmental Markets.
 
 
 

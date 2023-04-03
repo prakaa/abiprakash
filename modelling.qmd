@@ -1,0 +1,17 @@
+# Modelling
+
+## Comparing mathematical programming (optimisation) frameworks across Python & Julia
+
+[This repository](https://github.com/prakaa/Battery-Optimisation-Benchmarking) compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.
+
+The repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework.
+
+## Scheduling storage with imperfect foresight and information
+
+[This modelling](https://github.com/prakaa/NEMStorageUnderUncertainty) investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.
+
+Using [`NEMOSIS`](nem_data.qmd#nemosis) and [`NEMSEER`](nem_data.qmd#nemseer), actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of *perfect information* and values of *perfect foresight*.
+
+Project terminology, methodology and code is documented [here](https://prakaa.github.io/NEMStorageUnderUncertainty/dev/).
+
+![](https://prakaa.github.io/NEMStorageUnderUncertainty/dev/sim_example.png)
