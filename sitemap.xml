@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://prakaa.github.io/abiprakash/nem_data.html</loc>
-    <lastmod>2022-12-12T07:02:51.459Z</lastmod>
+    <loc>https://prakaa.github.io/concepts.html</loc>
+    <lastmod>2023-04-03T02:09:13.738Z</lastmod>
   </url>
   <url>
-    <loc>https://prakaa.github.io/abiprakash/concepts.html</loc>
-    <lastmod>2022-12-12T07:02:51.879Z</lastmod>
+    <loc>https://prakaa.github.io/index.html</loc>
+    <lastmod>2023-04-03T02:09:14.118Z</lastmod>
   </url>
   <url>
-    <loc>https://prakaa.github.io/abiprakash/index.html</loc>
-    <lastmod>2022-12-12T07:02:52.251Z</lastmod>
+    <loc>https://prakaa.github.io/nem_data.html</loc>
+    <lastmod>2023-04-03T02:09:14.434Z</lastmod>
   </url>
   <url>
-    <loc>https://prakaa.github.io/abiprakash/about.html</loc>
-    <lastmod>2022-12-12T07:02:52.651Z</lastmod>
+    <loc>https://prakaa.github.io/modelling.html</loc>
+    <lastmod>2023-04-03T02:09:14.714Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prakaa.github.io/about.html</loc>
+    <lastmod>2023-04-03T02:09:15.082Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prakaa.github.io/publications.html</loc>
+    <lastmod>2023-04-03T02:09:15.378Z</lastmod>
   </url>
 </urlset>

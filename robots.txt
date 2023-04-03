@@ -1,1 +1,1 @@
-Sitemap: https://prakaa.github.io/abiprakash/sitemap.xml
+Sitemap: https://prakaa.github.io/sitemap.xml
