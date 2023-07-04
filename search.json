@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "concepts.html",
-    "href": "concepts.html",
-    "title": "Electricity market concepts explained",
-    "section": "",
-    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
-  },
-  {
-    "objectID": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
-    "href": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
-    "title": "Electricity market concepts explained",
-    "section": "",
-    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This is a collection of a few things that I’ve worked on during my PhD at the Collaboration on Energy and Envrionmental Markets.\n\n\n\n\n\n\n\n\n\n\nPage\n\n\n\n\n\n\nAbout me\n\n\n\n\nElectricity market concepts explained\n\n\n\n\nModelling\n\n\n\n\nAustralian National Electricity Market data tools\n\n\n\n\nPublications\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "nem_data.html",
     "href": "nem_data.html",
     "title": "Australian National Electricity Market data tools",
@@ -44,21 +23,21 @@
   {
     "objectID": "modelling.html",
     "href": "modelling.html",
-    "title": "Modelling",
+    "title": "Optimisation modelling",
     "section": "",
     "text": "This repository compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.\nThe repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework.\n\n\n\nThis modelling investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.\nUsing NEMOSIS and NEMSEER, actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of perfect information and values of perfect foresight.\nProject terminology, methodology and code is documented here."
   },
   {
     "objectID": "modelling.html#comparing-mathematical-programming-optimisation-frameworks-across-python-julia",
     "href": "modelling.html#comparing-mathematical-programming-optimisation-frameworks-across-python-julia",
-    "title": "Modelling",
+    "title": "Optimisation modelling",
     "section": "",
     "text": "This repository compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.\nThe repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework."
   },
   {
     "objectID": "modelling.html#scheduling-storage-with-imperfect-foresight-and-information",
     "href": "modelling.html#scheduling-storage-with-imperfect-foresight-and-information",
-    "title": "Modelling",
+    "title": "Optimisation modelling",
     "section": "",
     "text": "This modelling investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.\nUsing NEMOSIS and NEMSEER, actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of perfect information and values of perfect foresight.\nProject terminology, methodology and code is documented here."
   },
@@ -67,14 +46,14 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might manage short-term risks (those in operational timeframes - milliseconds to days) to balancing supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Assessing and managing these risks requires considering individual resource and system-level technical capabilities and constraints within the context of power system operational practices (including electricity market design) and the broader organisation of the electricity industry. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
+    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
   },
   {
     "objectID": "about.html#me",
     "href": "about.html#me",
     "title": "About me",
     "section": "",
-    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might manage short-term risks (those in operational timeframes - milliseconds to days) to balancing supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Assessing and managing these risks requires considering individual resource and system-level technical capabilities and constraints within the context of power system operational practices (including electricity market design) and the broader organisation of the electricity industry. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
+    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
   },
   {
     "objectID": "about.html#this-website",
@@ -103,5 +82,26 @@
     "title": "Publications",
     "section": "",
     "text": "Prakash, A., Keeratimahat, K., Bruce, A., Macgill, I., 2020. Submission to the Semi scheduled generator rule change(s) Issues paper. UNSW Collaboration on Energy and Environmental Markets. link\nMacGill, I., Prakash, A., Bruce, A., 2020. Response to the Energy Security Board’s Post 2025 Market Design Consultation Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Macgill, I., Bruce, A., 2021. Response to Frequency control rule changes directions paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Gorman, N., MacGill, I., Bruce, A., 2021. Response to Reserve Services in the National Electricity Market Directions Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Ashby, R., Keeratimahat, K., Bruce, A., MacGill, I., 2021. UNSW CEEM Response to Post 2025 Market Design Options Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Nicholls, A., Heim, D., Bruce, A., Macgill, I., 2022. Response to Capacity Mechanism Project High-level Design Paper. UNSW Collaboration on Energy and Environmental Markets. link"
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "Exploring electricity market pricing concepts",
+    "section": "",
+    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
+  },
+  {
+    "objectID": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
+    "href": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
+    "title": "Exploring electricity market pricing concepts",
+    "section": "",
+    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a collection of a few things that I’ve worked on during my PhD at the Collaboration on Energy and Environmental Markets.\n\n\n\n\n\n\n\n\n\n\nPage\n\n\n\n\n\n\nAbout me\n\n\n\n\nExploring electricity market pricing concepts\n\n\n\n\nOptimisation modelling\n\n\n\n\nAustralian National Electricity Market data tools\n\n\n\n\nPublications\n\n\n\n\n\n\nNo matching items"
   }
 ]
