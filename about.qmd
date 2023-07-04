@@ -2,7 +2,7 @@
 title: "About me"
 about:
   template: trestles
-  image: https://media.licdn.com/dms/image/C5603AQEISS1PFyPX1A/profile-displayphoto-shrink_800_800/0/1604547548819?e=1686182400&v=beta&t=G-Oy-EbXpusoR_tMy7H1x680Iqb8NxlJr9okqybE_6k
+  image: assets/abi.png
   image-width: 15em
   links:
     - icon: envelope
@@ -17,7 +17,7 @@ about:
 
 I'm currently a [PhD candidate at the Collaboration on Energy and Envrionmental Markets](https://www.ceem.unsw.edu.au/staff/abhijith-prakash) at UNSW Sydney. 
 
-My PhD work looks at how we might manage short-term risks (those in operational timeframes - milliseconds to days) to balancing supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Assessing and managing these risks requires considering individual resource and system-level technical capabilities and constraints within the context of power system operational practices (including electricity market design) and the broader organisation of the electricity industry. Much of my work is related to the Australian National Electricity Market (NEM).
+My PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).
 
 Beyond my research work, I have a pretty broad range of interests:
 

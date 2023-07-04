@@ -30,12 +30,12 @@ Here are some examples of what you can do with `NEMSEER`.
 
 ### Demand Forecast Errors in 2021
 
-<iframe src="./charts/p5min_error_2021_tod_percentile.html" width="120%" height="500">
+<iframe src="assets/charts/p5min_error_2021_tod_percentile.html" width="120%" height="500">
 </iframe>
 
 ### Energy Price Convergence in 2021
 
 See [this note](https://nemseer.readthedocs.io/en/latest/examples/price_convergence_2021.html#energy-price-convergence-in-2021) explaining why we can't strictly call these price *errors*.
 
-<iframe src="./charts/NSW_abs_price_error_2021.html" width="120%" height="500">
+<iframe src="assets/charts/NSW_abs_price_error_2021.html" width="120%" height="500">
 </iframe>

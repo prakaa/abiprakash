@@ -12,7 +12,7 @@ listing:
   filter-ui: false
 ---
 
-This is a collection of a few things that I've worked on during my PhD at the Collaboration on Energy and Envrionmental Markets.
+This is a collection of a few things that I've worked on during my PhD at the Collaboration on Energy and Environmental Markets.
 
 
 

@@ -8,10 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - nem_data.qmd
-      - concepts.qmd
-      - modelling.qmd
-      - publications.qmd
       - about.qmd
     right:
     - icon: envelope

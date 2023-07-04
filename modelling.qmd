@@ -1,4 +1,4 @@
-# Modelling
+# Optimisation modelling
 
 ## Comparing mathematical programming (optimisation) frameworks across Python & Julia
 
