@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>nem_data</title>
+<title>Australian National Electricity Market data tools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,10 +118,23 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Australian National Electricity Market data tools</h1>
+</div>
 
 
-<section id="australian-national-electricity-market-data-tools" class="level1">
-<h1>Australian National Electricity Market data tools</h1>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
 <section id="nemosis" class="level2">
 <h2 class="anchored" data-anchor-id="nemosis"><a href="https://github.com/UNSW-CEEM/NEMOSIS">NEMOSIS</a></h2>
 <p>Originally developed by <a href="https://github.com/nick-gorman">Nick Gorman</a>, <code>NEMOSIS</code> is a Python package that facilitates downloading historical <em>actual</em> power system and market data from the Australian Energy Market Operator. Since its initial release, we have added additional features including data caching options and better user feedback.</p>
@@ -130,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="nemseer" class="level2">
 <h2 class="anchored" data-anchor-id="nemseer"><a href="https://github.com/UNSW-CEEM/NEMSEER">NEMSEER</a></h2>
-<p>Developed by myself, <code>NEMSEER</code> is a Python package that facilitates downloading historical ahead-of-time (or <em>forecast</em>) power system and market data from the Australian Energy Market Operator.</p>
+<p>Developed by myself, <code>NEMSEER</code> is a Python package that facilitates downloading historical ahead-of-time (or <em>forecast</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>) power system and market data from the Australian Energy Market Operator.</p>
 <p><code>NEMSEER</code> provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.</p>
 <p>Whereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e.&nbsp;used to answer questions such as <em>“can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”</em>), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.</p>
 <p><img src="https://nemseer.readthedocs.io/en/latest/_images/forecast_timeframes.png" class="img-fluid"></p>
@@ -156,9 +169,14 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 </section>
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I use the term “forecast” loosely, especially given that these “forecasts” change once participants update offer information (e.g.&nbsp;through rebidding) or submit revised resource availabilities and energy constraints. Both of these are intended outcomes of these “ahead processes”, which are run to provide system and market information to participants to inform their decision-making. However, to avoid confusion and to ensure consistency with the language used by AEMO, I use the terms “forecast” (or outputs) and “forecast types” (or ahead processes) in <code>NEMSEER</code>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

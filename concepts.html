@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>concepts</title>
+<title>Electricity market pricing concepts explained</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,10 +118,23 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Electricity market pricing concepts explained</h1>
+</div>
 
 
-<section id="exploring-electricity-market-pricing-concepts" class="level1">
-<h1>Exploring electricity market pricing concepts</h1>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
 <section id="dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch" class="level2">
 <h2 class="anchored" data-anchor-id="dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch">Dispatch and market pricing outcomes in variations of economic dispatch</h2>
 <p>The <a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a> notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.</p>
@@ -133,10 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Provides an example how co-optimising reserve and energy markets can:
 <ul>
 <li>Allow total system costs to be minimised</li>
-<li>Ensure that reserve market pricing accounts for market participants’ opportunity-costs
-<ul>
-<li>i.e.&nbsp;the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves</li>
-</ul></li>
+<li>Ensure that reserve market pricing accounts for market participants’ opportunity-costs<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
 </ul></li>
 </ol>
 <p><img src="assets/charts/ed.svg" class="img-fluid"></p>
@@ -144,15 +154,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="multi-period-dispatch" class="level3">
 <h3 class="anchored" data-anchor-id="multi-period-dispatch">Multi-period dispatch</h3>
 <p><a href="assets/pluto/multi_period_ed.jl.html">This notebook</a> explores unintuitive pricing outcomes associated with <em>multi-period</em> dispatch.</p>
-<p>The majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes.</p>
+<p>The majority of central-dispatch electricity markets (such as the National Electricity Market) are operated using single-period dispatch. However, several electricity markets in the US have adopted some form of multi-period dispatch and pricing to better consider system needs against inter-temporal resource constraints (in particular, net demand ramps and unit ramping constraints).</p>
 <p><img src="assets/charts/multi-dispatch.svg" class="img-fluid"></p>
 
 
 </section>
 </section>
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The otherwise foregone “profit” that a participant may have received if they had provided energy instead of reserves<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

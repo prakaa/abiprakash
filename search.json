@@ -4,7 +4,7 @@
     "href": "nem_data.html",
     "title": "Australian National Electricity Market data tools",
     "section": "",
-    "text": "Originally developed by Nick Gorman, NEMOSIS is a Python package that facilitates downloading historical actual power system and market data from the Australian Energy Market Operator. Since its initial release, we have added additional features including data caching options and better user feedback.\nData includes market prices, demand by market region, generator dispatch targets and SCADA data, NEM dispatch engine outputs and market participants bids and offers.\nIf you use NEMOSIS, please cite this paper.\n\n\n\nDeveloped by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the Zenodo DOI. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\n\n\n\n\n\n\nSee this note explaining why we can’t strictly call these price errors."
+    "text": "Originally developed by Nick Gorman, NEMOSIS is a Python package that facilitates downloading historical actual power system and market data from the Australian Energy Market Operator. Since its initial release, we have added additional features including data caching options and better user feedback.\nData includes market prices, demand by market region, generator dispatch targets and SCADA data, NEM dispatch engine outputs and market participants bids and offers.\nIf you use NEMOSIS, please cite this paper."
   },
   {
     "objectID": "nem_data.html#nemosis",
@@ -17,29 +17,36 @@
     "objectID": "nem_data.html#nemseer",
     "href": "nem_data.html#nemseer",
     "title": "Australian National Electricity Market data tools",
-    "section": "",
-    "text": "Developed by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the Zenodo DOI. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\n\n\n\n\n\n\nSee this note explaining why we can’t strictly call these price errors."
+    "section": "NEMSEER",
+    "text": "NEMSEER\nDeveloped by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast1) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the Zenodo DOI. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\nDemand Forecast Errors in 2021\n\n\n\n\nEnergy Price Convergence in 2021\nSee this note explaining why we can’t strictly call these price errors."
+  },
+  {
+    "objectID": "nem_data.html#footnotes",
+    "href": "nem_data.html#footnotes",
+    "title": "Australian National Electricity Market data tools",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI use the term “forecast” loosely, especially given that these “forecasts” change once participants update offer information (e.g. through rebidding) or submit revised resource availabilities and energy constraints. Both of these are intended outcomes of these “ahead processes”, which are run to provide system and market information to participants to inform their decision-making. However, to avoid confusion and to ensure consistency with the language used by AEMO, I use the terms “forecast” (or outputs) and “forecast types” (or ahead processes) in NEMSEER.↩︎"
   },
   {
     "objectID": "modelling.html",
     "href": "modelling.html",
-    "title": "Optimisation modelling",
+    "title": "Energy system optimisation modelling",
     "section": "",
-    "text": "This repository compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.\nThe repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework.\n\n\n\nThis modelling investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.\nUsing NEMOSIS and NEMSEER, actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of perfect information and values of perfect foresight.\nProject terminology, methodology and code is documented here."
+    "text": "This repository compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.\nThe repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework."
   },
   {
     "objectID": "modelling.html#comparing-mathematical-programming-optimisation-frameworks-across-python-julia",
     "href": "modelling.html#comparing-mathematical-programming-optimisation-frameworks-across-python-julia",
-    "title": "Optimisation modelling",
+    "title": "Energy system optimisation modelling",
     "section": "",
     "text": "This repository compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.\nThe repository landing page provides quantitative (time to solve using available solvers) and qualitative assessments (e.g. ease of formulating problem with API) of each framework."
   },
   {
     "objectID": "modelling.html#scheduling-storage-with-imperfect-foresight-and-information",
     "href": "modelling.html#scheduling-storage-with-imperfect-foresight-and-information",
-    "title": "Optimisation modelling",
-    "section": "",
-    "text": "This modelling investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.\nUsing NEMOSIS and NEMSEER, actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of perfect information and values of perfect foresight.\nProject terminology, methodology and code is documented here."
+    "title": "Energy system optimisation modelling",
+    "section": "Scheduling storage with imperfect foresight and information",
+    "text": "Scheduling storage with imperfect foresight and information\nThis modelling investigates how imperfect foresight and information (via actual and forecast energy prices) affects storage operation.\nUsing NEMOSIS and NEMSEER, actual and forecast regional prices are used to model storage operation and calculate annual revenues, values of perfect information and values of perfect foresight.\nProject terminology, methodology and code is documented here."
   },
   {
     "objectID": "about.html",
@@ -56,6 +63,13 @@
     "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
   },
   {
+    "objectID": "about.html#reuse",
+    "href": "about.html#reuse",
+    "title": "About me",
+    "section": "Reuse",
+    "text": "Reuse\nAll work on this site is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
     "objectID": "about.html#this-website",
     "href": "about.html#this-website",
     "title": "About me",
@@ -67,7 +81,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link\n\n\n\nPrakash, A., Keeratimahat, K., Bruce, A., Macgill, I., 2020. Submission to the Semi scheduled generator rule change(s) Issues paper. UNSW Collaboration on Energy and Environmental Markets. link\nMacGill, I., Prakash, A., Bruce, A., 2020. Response to the Energy Security Board’s Post 2025 Market Design Consultation Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Macgill, I., Bruce, A., 2021. Response to Frequency control rule changes directions paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Gorman, N., MacGill, I., Bruce, A., 2021. Response to Reserve Services in the National Electricity Market Directions Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Ashby, R., Keeratimahat, K., Bruce, A., MacGill, I., 2021. UNSW CEEM Response to Post 2025 Market Design Options Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Nicholls, A., Heim, D., Bruce, A., Macgill, I., 2022. Response to Capacity Mechanism Project High-level Design Paper. UNSW Collaboration on Energy and Environmental Markets. link"
+    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link"
   },
   {
     "objectID": "publications.html#peer-reviewed",
@@ -80,28 +94,35 @@
     "objectID": "publications.html#policy-submissions",
     "href": "publications.html#policy-submissions",
     "title": "Publications",
-    "section": "",
-    "text": "Prakash, A., Keeratimahat, K., Bruce, A., Macgill, I., 2020. Submission to the Semi scheduled generator rule change(s) Issues paper. UNSW Collaboration on Energy and Environmental Markets. link\nMacGill, I., Prakash, A., Bruce, A., 2020. Response to the Energy Security Board’s Post 2025 Market Design Consultation Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Macgill, I., Bruce, A., 2021. Response to Frequency control rule changes directions paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Gorman, N., MacGill, I., Bruce, A., 2021. Response to Reserve Services in the National Electricity Market Directions Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Ashby, R., Keeratimahat, K., Bruce, A., MacGill, I., 2021. UNSW CEEM Response to Post 2025 Market Design Options Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Nicholls, A., Heim, D., Bruce, A., Macgill, I., 2022. Response to Capacity Mechanism Project High-level Design Paper. UNSW Collaboration on Energy and Environmental Markets. link"
+    "section": "Policy submissions",
+    "text": "Policy submissions\nPrakash, A., Keeratimahat, K., Bruce, A., Macgill, I., 2020. Submission to the Semi scheduled generator rule change(s) Issues paper. UNSW Collaboration on Energy and Environmental Markets. link\nMacGill, I., Prakash, A., Bruce, A., 2020. Response to the Energy Security Board’s Post 2025 Market Design Consultation Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Macgill, I., Bruce, A., 2021. Response to Frequency control rule changes directions paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Gorman, N., MacGill, I., Bruce, A., 2021. Response to Reserve Services in the National Electricity Market Directions Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Ashby, R., Keeratimahat, K., Bruce, A., MacGill, I., 2021. UNSW CEEM Response to Post 2025 Market Design Options Paper. UNSW Collaboration on Energy and Environmental Markets. link\nPrakash, A., Nicholls, A., Heim, D., Bruce, A., Macgill, I., 2022. Response to Capacity Mechanism Project High-level Design Paper. UNSW Collaboration on Energy and Environmental Markets. link"
   },
   {
     "objectID": "concepts.html",
     "href": "concepts.html",
-    "title": "Exploring electricity market pricing concepts",
+    "title": "Electricity market pricing concepts explained",
     "section": "",
-    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
+    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs1\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) are operated using single-period dispatch. However, several electricity markets in the US have adopted some form of multi-period dispatch and pricing to better consider system needs against inter-temporal resource constraints (in particular, net demand ramps and unit ramping constraints)."
   },
   {
     "objectID": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
     "href": "concepts.html#dispatch-and-market-pricing-outcomes-in-variations-of-economic-dispatch",
-    "title": "Exploring electricity market pricing concepts",
+    "title": "Electricity market pricing concepts explained",
     "section": "",
-    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs\n\ni.e. the otherwise foregone “profit” that a participant may have received if they provided energy instead of reserves\n\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes."
+    "text": "The Pluto.jl notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.\n\n\nThis notebook:\n\nExplains how prices are generated from economic dispatch\nProvides an example how co-optimising reserve and energy markets can:\n\nAllow total system costs to be minimised\nEnsure that reserve market pricing accounts for market participants’ opportunity-costs1\n\n\n\n\n\n\nThis notebook explores unintuitive pricing outcomes associated with multi-period dispatch.\nThe majority of central-dispatch electricity markets (such as the National Electricity Market) are operated using single-period dispatch. However, several electricity markets in the US have adopted some form of multi-period dispatch and pricing to better consider system needs against inter-temporal resource constraints (in particular, net demand ramps and unit ramping constraints)."
+  },
+  {
+    "objectID": "concepts.html#footnotes",
+    "href": "concepts.html#footnotes",
+    "title": "Electricity market pricing concepts explained",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe otherwise foregone “profit” that a participant may have received if they had provided energy instead of reserves↩︎"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is a collection of a few things that I’ve worked on during my PhD at the Collaboration on Energy and Environmental Markets.\n\n\n\n\n\n\n\n\n\n\nPage\n\n\n\n\n\n\nAbout me\n\n\n\n\nExploring electricity market pricing concepts\n\n\n\n\nOptimisation modelling\n\n\n\n\nAustralian National Electricity Market data tools\n\n\n\n\nPublications\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of a few things that I’ve worked on during my PhD at the Collaboration on Energy and Environmental Markets.\n\n\n\n\n\n\n\n\n\n\nPage\n\n\n\n\n\n\nAbout me\n\n\n\n\nElectricity market pricing concepts explained\n\n\n\n\nEnergy system optimisation modelling\n\n\n\n\nAustralian National Electricity Market data tools\n\n\n\n\nPublications\n\n\n\n\n\n\nNo matching items"
   }
 ]
