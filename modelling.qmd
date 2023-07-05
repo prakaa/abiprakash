@@ -1,5 +1,7 @@
-# Optimisation modelling
-
+---
+title: Energy system optimisation modelling
+license: "CC BY"
+---
 ## Comparing mathematical programming (optimisation) frameworks across Python & Julia
 
 [This repository](https://github.com/prakaa/Battery-Optimisation-Benchmarking) compares several mathematical programming frameworks by using each to optimise a battery energy storage system engaged in energy arbitrage in New South Wales (a NEM market region) in 2021.

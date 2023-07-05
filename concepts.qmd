@@ -1,5 +1,7 @@
-# Exploring electricity market pricing concepts
-
+---
+title: Electricity market pricing concepts explained
+license: "CC BY"
+---
 ## Dispatch and market pricing outcomes in variations of economic dispatch
 
 The [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks below explore pricing outcomes in central dispatch electricity markets such as the Australian National Electricity Market.
@@ -10,8 +12,9 @@ The [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks below explore pricin
 1. Explains how prices are generated from economic dispatch
 2. Provides an example how co-optimising reserve and energy markets can:
     - Allow total system costs to be minimised
-    - Ensure that reserve market pricing accounts for market participants' opportunity-costs
-      - i.e. the otherwise foregone "profit" that a participant may have received if they provided energy instead of reserves
+    - Ensure that reserve market pricing accounts for market participants' opportunity-costs[^1]
+    
+[^1]: The otherwise foregone "profit" that a participant may have received if they had provided energy instead of reserves
 
 ![](assets/charts/ed.svg)
 
@@ -19,6 +22,6 @@ The [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks below explore pricin
 
 [This notebook](assets/pluto/multi_period_ed.jl.html) explores unintuitive pricing outcomes associated with *multi-period* dispatch.
 
-The majority of central-dispatch electricity markets (such as the National Electricity Market) operate using single-period dispatch, though several electricity markets in the US have adopted some form of multi-period dispatch and pricing to address ramping over several minutes.
+The majority of central-dispatch electricity markets (such as the National Electricity Market) are operated using single-period dispatch. However, several electricity markets in the US have adopted some form of multi-period dispatch and pricing to better consider system needs against inter-temporal resource constraints (in particular, net demand ramps and unit ramping constraints).
 
 ![](assets/charts/multi-dispatch.svg)

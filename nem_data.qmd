@@ -1,4 +1,7 @@
-# Australian National Electricity Market data tools
+---
+title: Australian National Electricity Market data tools
+license: "CC BY"
+---
 
 ## [NEMOSIS](https://github.com/UNSW-CEEM/NEMOSIS)
 
@@ -10,7 +13,9 @@ If you use `NEMOSIS`, please cite [this paper](https://www.researchgate.net/publ
 
 ## [NEMSEER](https://github.com/UNSW-CEEM/NEMSEER)
 
-Developed by myself, `NEMSEER` is a Python package that facilitates downloading historical ahead-of-time (or *forecast*) power system and market data from the Australian Energy Market Operator.
+Developed by myself, `NEMSEER` is a Python package that facilitates downloading historical ahead-of-time (or *forecast*[^1]) power system and market data from the Australian Energy Market Operator.
+
+[^1]: I use the term “forecast” loosely, especially given that these “forecasts” change once participants update offer information (e.g. through rebidding) or submit revised resource availabilities and energy constraints. Both of these are intended outcomes of these “ahead processes”, which are run to provide system and market information to participants to inform their decision-making. However, to avoid confusion and to ensure consistency with the language used by AEMO, I use the terms “forecast” (or outputs) and “forecast types” (or ahead processes) in `NEMSEER`.
 
 `NEMSEER` provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator. 
 
