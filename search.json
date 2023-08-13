@@ -21,6 +21,13 @@
     "text": "NEMSEER\nDeveloped by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast1) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the Zenodo DOI. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\nDemand Forecast Errors in 2021\n\n\n\n\nEnergy Price Convergence in 2021\nSee this note explaining why we can’t strictly call these price errors."
   },
   {
+    "objectID": "nem_data.html#mms-monthly-cli",
+    "href": "nem_data.html#mms-monthly-cli",
+    "title": "Australian National Electricity Market data tools",
+    "section": "mms-monthly-cli",
+    "text": "mms-monthly-cli\nDeveloped by myself, mms-monthly-cli is an open-source tool that can be used as a Python package or via the command line (see GIF below) to download CSV data from AEMO’s monthly data archive.\nAEMO’s monthly data archive has many NEM data tables aggregated for each month. It also has some tables (including bid data via BIDPEROFFER) that NEMOSIS and NEMSEER don’t currently provide access to."
+  },
+  {
     "objectID": "nem_data.html#footnotes",
     "href": "nem_data.html#footnotes",
     "title": "Australian National Electricity Market data tools",
