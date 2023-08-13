@@ -44,3 +44,12 @@ See [this note](https://nemseer.readthedocs.io/en/latest/examples/price_converge
 
 <iframe src="assets/charts/NSW_abs_price_error_2021.html" width="120%" height="500">
 </iframe>
+
+## [mms-monthly-cli](https://github.com/prakaa/mms-monthly-cli)
+
+Developed by myself, `mms-monthly-cli` is an open-source tool that can be used as a Python package or via the command line (see GIF below) to download CSV data from AEMO's monthly data archive.
+
+AEMO's monthly data archive has many NEM data tables aggregated for each month. It also has some tables (including bid data via `BIDPEROFFER`) that `NEMOSIS` and `NEMSEER` don't currently provide access to.
+
+![](assets/mms-monthly-cli.gif)
+
