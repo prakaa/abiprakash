@@ -8,11 +8,11 @@ Prakash, A., Bruce, A., MacGill, I., 2022. *Insights on designing effective and 
 
 Prakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. *Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables*. Energy Policy 177, 113551. [link](https://doi.org/10.1016/j.enpol.2023.113551)
 
-Prakash, A., Bruce, A. & MacGill, I. NEMSEER: A Python package for downloading and handling historical National Electricity Market forecast data produced by the Australian Energy Market Operator. Journal of Open Source Software 8, 5883 (2023). [link](https://joss.theoj.org/papers/10.21105/joss.05883)
+Prakash, A., Bruce, A. & MacGill, I. *NEMSEER: A Python package for downloading and handling historical National Electricity Market forecast data produced by the Australian Energy Market Operator*. Journal of Open Source Software 8, 5883 (2023). [link](https://joss.theoj.org/papers/10.21105/joss.05883)
 
 ## Pre-prints
 
-Prakash, Abhijith and Bruce, Anna and MacGill, Iain, The Scheduling Role of Future Pricing Information in Electricity Markets With Rising Deployments of Renewables and Energy Storage: An Australian National Electricity Market Case Study. [Available at SSRN](http://dx.doi.org/10.2139/ssrn.4771802)
+Prakash, Abhijith and Bruce, Anna and MacGill, Iain, *The Scheduling Role of Future Pricing Information in Electricity Markets With Rising Deployments of Renewables and Energy Storage: An Australian National Electricity Market Case Study*. [Available at SSRN](http://dx.doi.org/10.2139/ssrn.4771802)
 
 ## Policy submissions
 
