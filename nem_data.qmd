@@ -29,7 +29,7 @@ For more information, see:
 - The [quick start](https://nemseer.readthedocs.io/en/latest/quick_start.html) for information on how to use `NEMSEER`
 - The [examples page](https://nemseer.readthedocs.io/en/latest/examples.html), which include examples of how you can use [`NEMOSIS`](nem_data.qmd#nemosis) alongside `NEMSEER` to look at demand and price convergence over time. 
 
-If you use `NEMSEER`, please cite the package via the [Zenodo DOI](https://doi.org/10.5281/zenodo.7397514). If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite [`NEMOSIS`](https://www.researchgate.net/publication/329798805_NEMOSIS_-_NEM_Open_Source_Information_Service_open-source_access_to_Australian_National_Electricity_Market_Data).
+If you use `NEMSEER`, please cite the package via the [JOSS paper](https://doi.org/10.5281/zenodo.7397514). If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite [`NEMOSIS`](https://www.researchgate.net/publication/329798805_NEMOSIS_-_NEM_Open_Source_Information_Service_open-source_access_to_Australian_National_Electricity_Market_Data).
 
 Here are some examples of what you can do with `NEMSEER`.
 

@@ -17,7 +17,7 @@ about:
 
 I'm currently a [PhD candidate at the Collaboration on Energy and Envrionmental Markets](https://www.ceem.unsw.edu.au/staff/abhijith-prakash) at UNSW Sydney. 
 
-My PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).
+My PhD work has predominantly looked at how we should approach designing operational practices for balancing power systems and electricity markets with growing penetrations of renewable energy. Much of my work is related to the Australian National Electricity Market (NEM).
 
 Beyond my research work, I have a pretty broad range of interests:
 
