@@ -18,7 +18,7 @@
     "href": "nem_data.html#nemseer",
     "title": "Australian National Electricity Market data tools",
     "section": "NEMSEER",
-    "text": "NEMSEER\nDeveloped by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast1) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the Zenodo DOI. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\nDemand Forecast Errors in 2021\n\n\n\n\nEnergy Price Convergence in 2021\nSee this note explaining why we can’t strictly call these price errors."
+    "text": "NEMSEER\nDeveloped by myself, NEMSEER is a Python package that facilitates downloading historical ahead-of-time (or forecast1) power system and market data from the Australian Energy Market Operator.\nNEMSEER provides access to Projected Assessment of System Adequacy (specifically MT, ST and PD PASA) and pre-dispatch (30-minute and 5-minute) data as published by the Australian Energy Market Operator.\nWhereas PASA processes are primarily used to assess resource adequacy based on technical inputs and assumptions for resources in the market (i.e. used to answer questions such as “can operational demand be met in the forecast horizon with a sufficient safety (reserve) margin?”), pre-dispatch processes incorporate the latest set of market participant offers and thus produce regional prices forecasts for energy and frequency control ancillary services.\n\nFor more information, see:\n\nThe glossary for an overview of these ahead-of-time processes and definitions of key terms\nThe quick start for information on how to use NEMSEER\nThe examples page, which include examples of how you can use NEMOSIS alongside NEMSEER to look at demand and price convergence over time.\n\nIf you use NEMSEER, please cite the package via the JOSS paper. If you use code or analysis from any of the demand error and/or price convergence examples in the documentation, please also cite NEMOSIS.\nHere are some examples of what you can do with NEMSEER.\n\nDemand Forecast Errors in 2021\n\n\n\n\nEnergy Price Convergence in 2021\nSee this note explaining why we can’t strictly call these price errors."
   },
   {
     "objectID": "nem_data.html#mms-monthly-cli",
@@ -60,14 +60,14 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
+    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work has predominantly looked at how we should approach designing operational practices for balancing power systems and electricity markets with growing penetrations of renewable energy. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
   },
   {
-    "objectID": "about.html#me",
-    "href": "about.html#me",
+    "objectID": "about.html#abi-prakash",
+    "href": "about.html#abi-prakash",
     "title": "About me",
     "section": "",
-    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work looks at how we might design operational practices to balance supply and demand in power systems and electricity markets with growing penetrations of renewable energy and storage. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
+    "text": "I’m currently a PhD candidate at the Collaboration on Energy and Envrionmental Markets at UNSW Sydney.\nMy PhD work has predominantly looked at how we should approach designing operational practices for balancing power systems and electricity markets with growing penetrations of renewable energy. Much of my work is related to the Australian National Electricity Market (NEM).\nBeyond my research work, I have a pretty broad range of interests:\n\nPolitical economy of energy transition and climate change\nPolicy frameworks and market design for energy systems\nResource and system (production-cost) modelling through optimisation models\nSystem-level technical constraints that arise from power flow or power system stability assessments\n\nAlways happy to have a chat, so if you’re interested in chatting please get in touch."
   },
   {
     "objectID": "about.html#reuse",
@@ -88,14 +88,21 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link"
+    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link\nPrakash, A., Bruce, A. & MacGill, I. NEMSEER: A Python package for downloading and handling historical National Electricity Market forecast data produced by the Australian Energy Market Operator. Journal of Open Source Software 8, 5883 (2023)."
   },
   {
     "objectID": "publications.html#peer-reviewed",
     "href": "publications.html#peer-reviewed",
     "title": "Publications",
     "section": "",
-    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link"
+    "text": "Prakash, A., Bruce, A., MacGill, I., 2022. Insights on designing effective and efficient frequency control arrangements from the Australian National Electricity Market. Renewable and Sustainable Energy Reviews 161, 112303. link\nPrakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables. Energy Policy 177, 113551. link\nPrakash, A., Bruce, A. & MacGill, I. NEMSEER: A Python package for downloading and handling historical National Electricity Market forecast data produced by the Australian Energy Market Operator. Journal of Open Source Software 8, 5883 (2023)."
+  },
+  {
+    "objectID": "publications.html#pre-prints",
+    "href": "publications.html#pre-prints",
+    "title": "Publications",
+    "section": "Pre-prints",
+    "text": "Pre-prints\nPrakash, Abhijith and Bruce, Anna and MacGill, Iain, The Scheduling Role of Future Pricing Information in Electricity Markets With Rising Deployments of Renewables and Energy Storage: An Australian National Electricity Market Case Study. Available at SSRN: https://ssrn.com/abstract=4771802 or http://dx.doi.org/10.2139/ssrn.4771802"
   },
   {
     "objectID": "publications.html#policy-submissions",
