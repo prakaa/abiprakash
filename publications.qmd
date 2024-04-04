@@ -12,7 +12,7 @@ Prakash, A., Bruce, A. & MacGill, I. NEMSEER: A Python package for downloading a
 
 ## Pre-prints
 
-Prakash, Abhijith and Bruce, Anna and MacGill, Iain, The Scheduling Role of Future Pricing Information in Electricity Markets With Rising Deployments of Renewables and Energy Storage: An Australian National Electricity Market Case Study. [Available at SSRN](https://ssrn.com/abstract=4771802 or http://dx.doi.org/10.2139/ssrn.4771802)
+Prakash, Abhijith and Bruce, Anna and MacGill, Iain, The Scheduling Role of Future Pricing Information in Electricity Markets With Rising Deployments of Renewables and Energy Storage: An Australian National Electricity Market Case Study. [Available at SSRN](http://dx.doi.org/10.2139/ssrn.4771802)
 
 ## Policy submissions
 
