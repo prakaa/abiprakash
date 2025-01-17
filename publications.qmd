@@ -9,6 +9,7 @@ Prakash, A., Bruce, A., MacGill, I., 2022. *Insights on designing effective and 
 Prakash, A., Ashby, R., Bruce, A., MacGill, I., 2023. *Quantifying reserve capabilities for designing flexible electricity markets: An Australian case study with increasing penetrations of renewables*. Energy Policy 177, 113551 (2023). [link](https://doi.org/10.1016/j.enpol.2023.113551)
 
 Prakash, A., Bruce, A. & MacGill, I. *NEMSEER: A Python package for downloading and handling historical National Electricity Market forecast data produced by the Australian Energy Market Operator*. Journal of Open Source Software 8, 5883 (2023). [link](https://joss.theoj.org/papers/10.21105/joss.05883)
+
 Prakash, A., Bruce, A. & MacGill, I. *The scheduling role of future pricing information in electricity markets with rising deployments of energy storage: An Australian National Electricity Market case study.* Energy Economics 142, 108191 (2025). [link](https://doi.org/10.1016/j.eneco.2025.108191)
 
 Adams, S. & Prakash, A. *Climate change adaptation in the Australian electricity sector and the lure of resilience thinking.* Energy Research & Social Science 118, 103755 (2024). [link](https://doi.org/10.1016/j.erss.2024.103755)
